@@ -2,6 +2,8 @@
 
 A Website for searching events with filtering by category and date
 
+---
+
 ## Tech Stack
 
 **Server:**
@@ -26,6 +28,8 @@ A Website for searching events with filtering by category and date
 | ---------------- | ---------------------------------------------------------------- |
 | Active Color     | ![#f36cf6](https://via.placeholder.com/10/f36cf6?text=+) #f36cf6 |
 | Background Color | ![#aa4bac](https://via.placeholder.com/10/aa4bac?text=+) #aa4bac |
+
+---
 
 ## Check screenshots in `PREVIEW` folder... 
 
