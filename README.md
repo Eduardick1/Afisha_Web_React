@@ -7,12 +7,16 @@ Cайт для поиска мероприятий с фильтрацией п�
 **Server:**
 
 - json-server
-  **Client:**
+
+**Client:**
+
 - React
 - React-Route
 - Redux
 - Redux Persist
-  **Design**
+
+**Design**
+
 - SCSS
 - Material-UI
 
