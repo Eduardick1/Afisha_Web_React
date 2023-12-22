@@ -34,4 +34,4 @@ Cайт для поиска мероприятий с фильтрацией п�
 
 ### P.S.
 
-WORK IN PROGRESS
+:hammer: :construction_worker: WORK IN PROGRESS :sweat_smile:
