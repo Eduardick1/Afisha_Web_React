@@ -1,6 +1,6 @@
-# Афиша
+# Afisha website
 
-Cайт для поиска мероприятий с фильтрацией по категориям и дате
+A Website for searching events with filtering by category and date
 
 ## Tech Stack
 
