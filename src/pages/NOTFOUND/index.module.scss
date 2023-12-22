@@ -1,0 +1,42 @@
+@import "../../utils/variables.module";
+
+.NotFound {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+.BTN {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  height: fit-content;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 1rem;
+  color: $active_color;
+  font-weight: 900;
+  position: relative;
+  cursor: pointer;
+}
+
+.svg {
+  width: 4rem;
+  height: 4rem;
+  fill: #fff;
+  position: absolute;
+  top: -10%;
+  right: -40%;
+  animation: Arrow 1s linear infinite alternate;
+}
+@keyframes Arrow {
+  0% {
+    right: -45%;
+  }
+  100% {
+    right: -40%;
+  }
+}

@@ -1,0 +1,79 @@
+@import "./utils/variables.module";
+@keyframes SKELETON-LOADING {
+  0% {
+    background-color: rgba($active_color, 1);
+  }
+  100% {
+    background-color: rgba($active_color, 0.1);
+  }
+}
+.swiper-wrapper {
+  background: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  overflow: overlay;
+  line-height: 1;
+  /* Scroll bar stylings */
+  &::-webkit-scrollbar {
+    background-color: transparent;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: $bg_color;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $active_color;
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}

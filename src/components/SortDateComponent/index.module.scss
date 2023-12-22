@@ -1,0 +1,18 @@
+@import "../../utils/variables.module";
+
+.picker {
+  width: 7rem;
+  text-align: center;
+  background: transparent;
+  color: $font_color;
+  cursor: pointer;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  &:hover {
+    border-color: rgba(255, 255, 255, 1);
+  }
+}

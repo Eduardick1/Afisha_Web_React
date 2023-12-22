@@ -1,0 +1,17 @@
+.Btn {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  padding: 0.4rem;
+  border: 0.1rem solid #fff;
+  border-radius: 1rem;
+  fill: #fff;
+  transition: border-color 300ms ease, color 300ms ease, fill 300ms ease;
+  &:hover {
+    border-color: #cccccc;
+    color: #cccccc;
+    fill: #cccccc;
+  }
+}

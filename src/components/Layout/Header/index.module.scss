@@ -1,0 +1,44 @@
+@import "../../../utils/variables.module";
+.HEADER {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  letter-spacing: 0.1rem;
+}
+
+.nav {
+  display: flex;
+  column-gap: 3rem;
+  align-content: baseline;
+  justify-content: space-between;
+
+  & a:hover {
+    transition: transform 100ms ease-in-out;
+    transform: scale(1.1);
+  }
+  & a.active {
+    transform: scale(1);
+    color: $active_color;
+  }
+}
+
+.search_icon {
+  transition: transform 100ms ease-in-out;
+  font-size: 1.2rem;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.Auth {
+  padding: 0.5rem;
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  &:hover {
+    border-color: $active_color;
+    transform: scale(1.1);
+  }
+}
