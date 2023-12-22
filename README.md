@@ -23,12 +23,12 @@ Cайт для поиска мероприятий с фильтрацией п�
 | Active Color     | ![#f36cf6](https://via.placeholder.com/10/f36cf6?text=+) #f36cf6 |
 | Background Color | ![#aa4bac](https://via.placeholder.com/10/aa4bac?text=+) #aa4bac |
 
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+![MainScreen](https://github.com/Eduardick1/afisha2-ts/blob/master/PREVIEW/MainScreenAllFollowed.png)
+![Pagination](https://github.com/Eduardick1/afisha2-ts/blob/master/PREVIEW/Pagination.png)
+![Filtering](https://github.com/Eduardick1/afisha2-ts/blob/master/PREVIEW/Sorting.png)
+![onHover](https://github.com/Eduardick1/afisha2-ts/blob/master/PREVIEW/CardHover.png)
+![Auth](https://github.com/Eduardick1/afisha2-ts/blob/master/PREVIEW/Auth.png)
+![SinglePage](https://github.com/Eduardick1/afisha2-ts/blob/master/PREVIEW/SinglePage.png)
 
 ### P.S.
 
